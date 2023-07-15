@@ -1,4 +1,4 @@
-name: floating_button
+name: elevated-button
 description: A new brick created with the Mason CLI.
 version: 0.1.0+1
 environment:
