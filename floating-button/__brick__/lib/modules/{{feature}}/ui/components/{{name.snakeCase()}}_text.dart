@@ -5,11 +5,11 @@ class {{name.pascalCase()}}Text extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const FloatingActionButton(
+    return FloatingActionButton(
       onPressed: () {  
         // TODO: Put do event here !!!
       }, 
-      child: Text('{{name.pascalCase}}'),
+      child: const Text('{{name.pascalCase()}}'),
     );
   }
 
@@ -19,7 +19,7 @@ class {{name.pascalCase()}}Text extends StatelessWidget {
   //     onPressed: () {  
   //       // TODO: Put do event here !!!
   //     }, 
-  //     child: Text('{{name.pascalCase}}'),
+  //     child: Text('{{name.pascalCase()}}'),
   //   );
   // }
 }
